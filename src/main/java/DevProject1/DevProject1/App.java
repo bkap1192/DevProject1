@@ -7,7 +7,9 @@ public class App
 	public void fn_launchrowser(){
 		FirefoxDriver driver=new FirefoxDriver();
 		driver.manage().window().maximize();
-		driver.get("https://www.google.com");		
+		driver.get("https://www.google.com");	
+//	driver.get("https://www.google.com");	
+		
 	}
 	
 }

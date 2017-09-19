@@ -8,7 +8,7 @@ public class App
 		FirefoxDriver driver=new FirefoxDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.google.com");	
-		
+		//.................
 	}
 	
 }
